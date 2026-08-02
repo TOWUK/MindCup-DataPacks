@@ -1,0 +1,50 @@
+name: КОНВЕЕРЫ
+block: {
+  conveyor: {
+    speed: 0.1
+    displayedSpeed: 14
+  }
+  titanium-conveyor: {
+    speed: 0.2
+    displayedSpeed: 25.5
+  }
+  armored-conveyor: {
+    speed: 0.2
+    displayedSpeed: 28
+    requirements: {
+      0: {
+        item: titanium
+      }
+      2: {
+        amount: 0
+      }
+    }
+  }
+  plastanium-conveyor: {
+    speed: 0.2
+  }
+  junction: {
+    speed: 8.7
+    displayedSpeed: 39
+    capacity: 10
+  }
+  router: {
+    speed: 2.7
+  }
+  distributor: {
+    speed: 2.7
+  }
+  bridge-conveyor: {
+    speed: 24.7
+    displayedSpeed: 15
+  }
+  phase-conveyor: {
+    transportTime: 0.7
+  }
+  unloader: {
+    speed: 1.8
+  }
+  mass-driver: {
+    reload: 66.7
+  }
+}
