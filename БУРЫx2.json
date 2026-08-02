@@ -1,0 +1,24 @@
+name: БУРЫ
+block: {
+  pneumatic-drill: {
+    drillTime: 266
+  }
+  laser-drill: {
+    drillTime: 186
+  }
+  blast-drill: {
+    drillTime: 180
+  }
+  water-extractor: {
+    pumpAmount: 0.2
+  }
+  cultivator: {
+    craftTime: 66
+  }
+  oil-extractor: {
+    pumpAmount: 0.46
+  }
+  mechanical-drill: {
+    drillTime: 400
+  }
+}
